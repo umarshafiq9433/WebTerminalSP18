@@ -1,0 +1,8 @@
+.image {
+  border: 5px solid rgb(128, 128, 128, 0.2);
+  border-radius: 5px;
+}
+
+.review-star {
+  color: gold !important;
+}
