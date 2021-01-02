@@ -14,7 +14,7 @@ $(document).ready(function () {
     }
   );
 
-  $(".reviews").on("mouseenter", function () {
+  $(document).on(".reviews", "mouseenter", function () {
     let id = $(this).data("id");
     for (let i = id; i > 0; i--) {
       $("#" + i).addClass("review-star");
